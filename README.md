@@ -2,7 +2,7 @@
 
 This repository is the source code that accompanies a course on Udemy.com that teaches students how blockchain technology works by coding out their own blockchain prototype in javascript.
 
-The course is called **[Learn Blockchain Technology By Building Your Own In JavaScript](https://www.udemy.com/build-a-blockchain-in-javascript/?couponCode=GHDISCOUNT)** and it can be found **[here](https://www.udemy.com/build-a-blockchain-in-javascript/?couponCode=GHDISCOUNT)**.
+The course is called **[Learn Blockchain By Building Your Own In JavaScript](https://www.udemy.com/build-a-blockchain-in-javascript/?couponCode=GHDISCOUNT)** and it can be found **[here](https://www.udemy.com/build-a-blockchain-in-javascript/?couponCode=GHDISCOUNT)**.
 <br/><br/>
 <a href="https://www.udemy.com/build-a-blockchain-in-javascript/?couponCode=GHDISCOUNT"><img src="https://i.imgur.com/CzdyaiX.png" alt="JavaScript Blockchain Course" width="250px"/></a>
 <br/>

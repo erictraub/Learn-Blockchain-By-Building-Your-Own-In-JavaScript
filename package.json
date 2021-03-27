@@ -1,5 +1,5 @@
 {
-  "name": "javaScript-blockchain",
+  "name": "javaScriptblockchain",
   "version": "1.0.0",
   "description": "Learn Blockchain By Building Your Own In JavaScript",
   "main": "index.js",
@@ -14,12 +14,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.3",
-    "nodemon": "^1.17.3",
-    "request": "^2.87.0",
-    "request-promise": "^4.2.2",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
     "sha256": "^0.2.0",
-    "uuid": "^3.2.1"
+    "uuid": "^8.3.2"
   }
 }

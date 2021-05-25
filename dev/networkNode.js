@@ -127,8 +127,14 @@ app.post('/receive-new-block', function(req, res) {
 // register a node and broadcast it the network
 app.post('/register-and-broadcast-node', function(req, res) {
 	const newNodeUrl = req.body.newNodeUrl;
-	if (bitcoin.networkNodes.indexOf(newNodeUrl) == -1) bitcoin.networkNodes.push(newNodeUrl);
-
+	const nodeNotAlreadyPresent = bitcoin.networkNodes.indexOf(newNodeUrl) == -1;
+  	const notCurrentNode = bitcoin.currentNodeUrl !== newNodeUrl;
+ 	if (nodeNotAlreadyPresent && notCurrentNode){
+	  bitcoin.networkNodes.push(newNodeUrl);
+	}else{
+		res.json({note: 'Node was not added!'});
+	}
+	
 	const regNodesPromises = [];
 	bitcoin.networkNodes.forEach(networkNodeUrl => {
 		const requestOptions = {

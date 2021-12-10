@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.24.0",
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.19.1",
     "express": "^4.17.1",
     "nodemon": "^2.0.15",
     "sha256": "^0.2.0",
